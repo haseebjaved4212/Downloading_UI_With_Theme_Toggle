@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle Download UI</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="themeToggle">
+            <span class="light-icon">☀️</span>
+            <span class="dark-icon">🌙</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="morphing-glass">
+            <h1>Downloading...</h1>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <div id="percent">0%</div>
+            <button id="downloadButton">Start Download</button>
+            <p id="status">Status: Waiting to start...</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
